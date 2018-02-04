@@ -1,0 +1,7 @@
+<h3><%= @title %></h3>
+
+
+<!-- usersからuserを取り出す -->
+<% @users.each do |user| %>
+<p><%= user.name %><br><%= user.email %></p>
+<% end %>
